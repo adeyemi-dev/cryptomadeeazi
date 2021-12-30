@@ -12,7 +12,6 @@ import { SingleCoin } from "../config/api";
 import { CryptoState } from "../CryptoContext";
 import { numberWithCommas } from "../components/CoinsTable";
 // import ReactHtmlParser from "react-html-parser";
-
 const Coinpage = () => {
   const { id } = useParams();
   const [coin, setCoin] = useState();
